@@ -1,0 +1,24 @@
+{
+    "name": "vanry/sitemap",
+    "description": "A simple xml sitemap generator with support for Laravel integration",
+    "keywords": ["sitemap", "laravel", "lumen"],
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "homepage": "http://vanry.me",
+    "authors": [
+        {
+            "name": "vanry",
+            "email": "ivanry@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-dom": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vanry\\": "src/"
+        }
+    }
+}
