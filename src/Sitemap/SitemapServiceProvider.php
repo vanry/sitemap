@@ -34,6 +34,6 @@ class SitemapServiceProvider extends ServiceProvider
             return new Sitemap;
         });
 
-        $this->app->alias('sitemap', Vanry\Sitemap\Sitemap::class);
+        $this->app->alias('sitemap', Sitemap::class);
     }
 }
